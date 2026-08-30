@@ -1,0 +1,8 @@
+artifact,priority,question,source_csv
+model_mae_comparison.png,principal,¿Qué modelo obtiene menor error medio?,figure_model_comparison_source.csv
+model_mae_by_fold.png,principal,¿Es estable el rendimiento entre ventanas temporales?,figure_fold_stability_source.csv
+summary_by_competition.csv,secundaria,¿Cómo cambia el rendimiento por competición?,summary_by_competition.csv
+tuning_results.csv,secundaria,¿Qué parámetros seleccionó cada train temporal?,tuning_results.csv
+training_cost.csv,secundaria,¿Qué coste computacional tiene cada variante?,training_cost.csv
+predictions.csv,control,¿Qué predicción produjo cada modelo para cada fila?,predictions.csv
+fold_schedule.csv,control,¿Qué fechas forman cada fold?,fold_schedule.csv

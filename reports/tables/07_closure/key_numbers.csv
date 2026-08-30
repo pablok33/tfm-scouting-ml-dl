@@ -1,0 +1,10 @@
+concept,value,unit,source
+raw_rows,11475,rows,01
+clean_rows,10577,rows,01
+model_rows,7269,rows,02
+players,712,operational identities,02
+tabular_features,36,features,03
+temporal_folds,5,folds,03
+dl_seeds,3,seeds,04-05
+sequence_length,10,previous games,05
+sequence_timestep_features,17,features,05

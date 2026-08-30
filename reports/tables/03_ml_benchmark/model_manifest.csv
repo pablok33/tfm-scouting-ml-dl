@@ -1,0 +1,12 @@
+model,family,parameters,tuning
+Baseline_mean,reference,mean(PIR_target_train),none
+Ridge,linear,alpha=1.0,fixed
+Lasso,linear,alpha=0.002; max_iter=30000,fixed
+ElasticNet,linear,alpha=0.002; l1_ratio=0.2; max_iter=30000,fixed
+RandomForest,bagging_trees,n_estimators=700; min_samples_leaf=5; max_features=0.6,fixed
+ExtraTrees,bagging_trees,n_estimators=700; min_samples_leaf=3; max_features=0.7,fixed
+HistGradientBoosting,boosting,learning_rate=0.05; max_depth=3; max_iter=800; early_stopping=True,fixed
+LightGBM,boosting,n_estimators=2000; learning_rate=0.05; num_leaves=31; min_child_samples=50,fixed and randomized
+XGBoost,boosting,n_estimators=2000; learning_rate=0.05; max_depth=4; min_child_weight=5,fixed and randomized
+LightGBM_tuned,boosting,20 candidates; 3 inner temporal splits,nested randomized search by outer fold
+XGBoost_tuned,boosting,20 candidates; 3 inner temporal splits,nested randomized search by outer fold

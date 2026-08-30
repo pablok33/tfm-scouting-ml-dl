@@ -1,0 +1,7 @@
+check,passed
+target_date_equals_row_date,True
+previous_appearance_strictly_before_target,True
+minimum_three_prior_appearances,True
+minimum_five_prior_minutes,True
+unique_target_key,True
+model_features_exclude_target_and_counts,True

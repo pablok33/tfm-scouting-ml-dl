@@ -1,0 +1,5 @@
+artifact,priority,question,source_csv
+eligibility_impact_by_competition.png,principal,¿Qué efecto tiene la elegibilidad sobre la población?,figure_eligibility_impact_source.csv
+final_population_by_competition.png,principal,¿Cómo se distribuye el dataset modelable?,figure_final_population_source.csv
+model_feature_manifest.csv,control,¿Qué variables podrán entrar en los modelos?,model_feature_manifest.csv
+temporal_checks.csv,control,¿Qué invariantes temporales se verificaron?,temporal_checks.csv

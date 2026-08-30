@@ -1,0 +1,5 @@
+model,batch_norm,dropout,l2,loss,reduce_lr,max_epochs,patience,batch_size,hidden,optimizer,validation,evaluation
+MLP_base_MAE,True,0.25,0.0001,mae,False,300,25,256,256-128-64,Adam; initial_lr=0.001,last 15% temporal of outer train,"5 outer folds; seeds=42,123,2026"
+MLP_small_RLR_MAE,True,0.35,0.0003,mae,True,300,25,256,128-64-32,Adam; initial_lr=0.001,last 15% temporal of outer train,"5 outer folds; seeds=42,123,2026"
+MLP_small_RLR_Huber,True,0.35,0.0003,huber,True,300,25,256,128-64-32,Adam; initial_lr=0.001,last 15% temporal of outer train,"5 outer folds; seeds=42,123,2026"
+MLP_current_MAE,False,0.35,0.0003,mae,False,80,8,64,128-64-32,Adam; initial_lr=0.001,last 15% temporal of outer train,"5 outer folds; seeds=42,123,2026"

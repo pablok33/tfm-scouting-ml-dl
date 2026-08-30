@@ -1,0 +1,7 @@
+feature,meaning,formula,zero_denominator
+FGA,Tiros de campo intentados,TwoPA + ThreePA,not applicable
+eFG,Porcentaje efectivo de tiro,(TwoP + 1.5 * ThreeP) / FGA,NaN
+TS,True shooting,PTS / (2 * (FGA + 0.44 * FTA)),NaN
+FT_rate,Frecuencia de tiros libres,FTA / FGA,NaN
+3P_rate,Proporción de triples,ThreePA / FGA,NaN
+AST_TOV,Relación asistencias/pérdidas,AST / TOV,NaN

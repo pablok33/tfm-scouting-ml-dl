@@ -1,0 +1,11 @@
+competition,feature,importance_mae_mean,importance_mae_between_fold_std,positive_folds,folds,interpretation
+ALL,FGA_roll5,0.4085295979865391,0.1199010965835755,5,5,recent shot volume
+ALL,PTS_roll5,0.3955374004313519,0.0732355656614982,5,5,recent scoring
+ALL,PIR_roll5,0.3898418557251244,0.0734865739879555,5,5,recent overall production
+ALL,PIR_roll10,0.247453818082487,0.0974852878446472,5,5,sustained overall production
+ALL,FTA_roll5,0.1735094788860128,0.0620668326416438,5,5,recent free-throw volume
+ALL,TOV_roll5,0.0940120425650539,0.0340889424527609,5,5,recent turnovers
+ALL,MP_min_roll5,0.0472273803826094,0.0173778064347607,5,5,recent playing time
+ALL,3P_rate_roll5,0.0378395918578373,0.0162443710456416,5,5,recent three-point attempt share
+ALL,TS_roll5,0.0330704980297983,0.0151759214741283,5,5,recent scoring efficiency
+ALL,TS_roll10,0.0329194405441587,0.0122666724392938,5,5,sustained scoring efficiency

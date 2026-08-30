@@ -1,0 +1,7 @@
+artifact,priority,question,source_csv
+sequence_model_comparison.png,principal,¿Qué compromiso existe entre ML y DL?,figure_model_comparison_source.csv
+sequence_mae_by_fold.png,principal,¿Se mantiene la diferencia entre ventanas?,figure_mae_by_fold_source.csv
+summary_by_seed.csv,secundaria,¿Son estables LSTM y GRU entre semillas?,summary_by_seed.csv
+training_cost.csv,secundaria,¿Qué coste añade cada arquitectura?,training_cost.csv
+predictions.csv,control,¿Qué predicción produjo cada ejecución?,predictions.csv
+training_history.csv,control,¿Cómo evolucionó cada entrenamiento?,training_history.csv

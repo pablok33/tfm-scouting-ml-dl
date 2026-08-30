@@ -1,0 +1,7 @@
+competition,role,file,rows,columns
+acb,games,acb_games_1718_acb_games_1718.csv,3939,38
+acb,players,acb_players_1718_acb_players_1718.csv,255,7
+euroleague,games,euroleague_games_1718_euroleague_games_1718.csv,3932,38
+euroleague,players,euroleague_players_1718_euroleague_players_1718.csv,245,7
+eurocup,games,eurocup_games_1718_eurocup_games_1718.csv,3604,38
+eurocup,players,eurocup_players_1718_eurocup_players_1718.csv,351,7

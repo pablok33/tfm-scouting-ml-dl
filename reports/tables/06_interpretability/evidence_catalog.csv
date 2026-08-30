@@ -1,0 +1,8 @@
+artifact,priority,question,source_csv
+permutation_importance.png,principal,¿Qué variables sostienen la predicción futura?,figure_permutation_source.csv
+elasticnet_coefficients.png,principal,¿Qué dirección y estabilidad tienen las asociaciones?,figure_coefficients_source.csv
+permutation_by_competition.png,secundaria,¿Se repite el patrón entre competiciones?,figure_competition_importance_source.csv
+method_agreement.csv,secundaria,¿Coinciden los dos métodos de interpretación?,method_agreement.csv
+coefficient_model_stability.csv,secundaria,¿Depende la lectura de elegir Lasso o ElasticNet?,coefficient_model_stability.csv
+lasso_elasticnet_agreement.csv,secundaria,¿Coinciden los coeficientes de las dos referencias lineales?,lasso_elasticnet_agreement.csv
+permutation_by_fold_competition.csv,control,¿Cuál fue cada permutación por fold?,permutation_by_fold_competition.csv

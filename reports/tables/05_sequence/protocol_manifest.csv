@@ -1,0 +1,6 @@
+component,value
+sequence,up to 10 previous games; minimum 3; 17 timestep features
+recurrent,LSTM/GRU 32 units; dropout=0.15
+head,competition + rest; Dense 16 ReLU; dropout=0.15
+optimization,Adam lr=0.001; loss=MAE; batch=64
+selection,last 15% of train; max=40; patience=5

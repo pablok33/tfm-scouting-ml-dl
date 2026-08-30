@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+.ipython/
+
+# Entornos y editores
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# TensorBoard: se regeneran localmente; conservar solo documentación/capturas seleccionadas
+reports/tensorboard/**
+!reports/tensorboard/.gitkeep
+
+# Material local de trabajo que no forma parte de la publicación
+AGENTS.md
+docs/
+tools/
+notebooks_antiguos/
+DATA_LICENSE.md
+
+# Temporales
+tmp/
+temp/
+*.tmp
+*.log

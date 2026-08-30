@@ -1,0 +1,8 @@
+artifact,priority,question,source_csv
+mlp_vs_linear_mae.png,principal,¿Qué variante MLP generaliza mejor y mejora las referencias lineales?,figure_mlp_comparison_source.csv
+mlp_training_curves.png,principal,¿Cómo se seleccionan las épocas sin usar el test?,figure_training_curves_source.csv
+summary_by_model_seed.csv,secundaria,¿Cuánta variabilidad introducen las semillas en cada configuración?,summary_by_model_seed.csv
+training_cost.csv,secundaria,¿Qué coste y número de épocas requiere cada configuración?,training_cost.csv
+training_history.csv,control,¿Cuál fue la historia completa de entrenamiento?,training_history.csv
+experiment_manifest.csv,control,¿Qué hiperparámetros definen cada configuración?,experiment_manifest.csv
+run_environment.csv,control,¿Con qué entorno y dispositivo se ejecutó?,run_environment.csv

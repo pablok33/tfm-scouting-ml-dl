@@ -1,0 +1,19 @@
+name: tfm-scouting-ml-dl
+channels:
+  - defaults
+dependencies:
+  - python=3.12.4
+  - pip
+  - setuptools=69.5.1
+  - ipykernel=6.28.0
+  - jupyterlab=4.0.11
+  - notebook=7.0.8
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - matplotlib=3.8.4
+  - scikit-learn=1.4.2
+  - lightgbm=4.6.0
+  - pip:
+      - tensorflow==2.18.0
+      - keras==3.8.0
+      - xgboost==3.1.2

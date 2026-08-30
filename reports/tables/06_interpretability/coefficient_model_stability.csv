@@ -1,0 +1,3 @@
+model,mean_sign_consistency,fully_stable_features,mean_abs_coefficient
+ElasticNet,0.9210526315789473,29,0.4225639987802232
+Lasso,0.868421052631579,30,0.42484318397438703

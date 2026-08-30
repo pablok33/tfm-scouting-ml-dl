@@ -1,0 +1,12 @@
+artifact,path,exists,bytes
+clean,data\processed\player_game_clean_1718.csv,True,3904157
+model_dataset,data\processed\player_pregame_target_game_3_5_1718.csv,True,6559239
+ml_summary,reports\tables\03_ml_benchmark\summary_global.csv,True,1456
+ml_predictions,reports\tables\03_ml_benchmark\predictions.csv,True,5252848
+mlp_metrics,reports\tables\04_mlp\metrics_by_seed_fold.csv,True,5638
+mlp_summary,reports\tables\04_mlp\summary_by_model.csv,True,464
+mlp_predictions,reports\tables\04_mlp\predictions.csv,True,5526608
+sequence_comparison,reports\tables\05_sequence\model_comparison.csv,True,903
+sequence_predictions,reports\tables\05_sequence\predictions.csv,True,2792096
+importance,reports\tables\06_interpretability\permutation_summary.csv,True,9351
+eligibility,reports\tables\02_dataset\eligibility_impact_by_competition.csv,True,194

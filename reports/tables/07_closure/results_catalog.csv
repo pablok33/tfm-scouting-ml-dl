@@ -1,0 +1,14 @@
+section,artifact,priority,question,source_csv,artifact_exists,source_exists
+data,reports/figures/01_eda/minutes_pir_distribution.png,principal,¿Cómo se distribuyen minutos y PIR?,reports/tables/01_eda/eda_minutes_pir_source.csv,True,True
+population,reports/figures/02_dataset/final_population_by_competition.png,secundaria,¿Cómo se distribuye la población final?,reports/tables/02_dataset/figure_final_population_source.csv,True,True
+population,reports/figures/02_dataset/eligibility_impact_by_competition.png,principal,¿Qué impacto tiene la elegibilidad por competición?,reports/tables/02_dataset/figure_eligibility_impact_source.csv,True,True
+population,reports/figures/07_closure/eligibility_retained_excluded_profiles.png,principal,¿Qué perfiles retiene y excluye la elegibilidad?,reports/tables/07_closure/figure_eligibility_profiles_source.csv,True,True
+validation,reports/figures/03_ml_benchmark/model_mae_by_fold.png,secundaria,¿Son estables las referencias ML?,reports/tables/03_ml_benchmark/figure_fold_stability_source.csv,True,True
+training,reports/figures/04_mlp/mlp_training_curves.png,secundaria,¿Cómo se seleccionan épocas?,reports/tables/04_mlp/figure_training_curves_source.csv,True,True
+results,reports/figures/07_closure/final_model_metrics.png,principal,¿Cómo se comparan los modelos en las tres métricas?,reports/tables/07_closure/figure_final_metrics_source.csv,True,True
+results,reports/figures/07_closure/mae_rmse_tradeoff.png,principal,¿Qué compromiso existe entre MAE y RMSE?,reports/tables/07_closure/figure_final_metrics_source.csv,True,True
+results,reports/figures/07_closure/model_mae_by_competition.png,secundaria,¿Cómo cambia el MAE por competición?,reports/tables/07_closure/figure_competition_mae_source.csv,True,True
+results,reports/figures/05_sequence/sequence_mae_by_fold.png,principal,¿Se mantiene la comparación en las ventanas temporales?,reports/tables/05_sequence/figure_mae_by_fold_source.csv,True,True
+interpretability,reports/figures/06_interpretability/permutation_importance.png,principal,¿Qué señales sostienen la predicción?,reports/tables/06_interpretability/figure_permutation_source.csv,True,True
+interpretability,reports/figures/06_interpretability/elasticnet_coefficients.png,principal,¿Qué dirección tienen las asociaciones?,reports/tables/06_interpretability/figure_coefficients_source.csv,True,True
+reproducibility,reports/tables/03_ml_benchmark/fold_schedule.csv,control,¿Cuáles son los cortes temporales?,reports/tables/03_ml_benchmark/fold_schedule.csv,True,True

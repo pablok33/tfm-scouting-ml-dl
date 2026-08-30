@@ -1,0 +1,14 @@
+check,expected,observed,passed
+clean_rows,10577,10577,True
+model_rows,7269,7269,True
+players,712,712,True
+features,36,36,True
+folds,5,5,True
+final_models,5,5,True
+all_configurations,17,17,True
+best_mae,LSTM,LSTM,True
+best_rmse,Lasso,Lasso,True
+prediction_models,5,5,True
+prediction_duplicates,0,0,True
+eligibility_profile_rows,10577,10577,True
+result_files,all present,True,True
