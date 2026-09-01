@@ -5,4 +5,3 @@ summary_by_model_seed.csv,secundaria,¿Cuánta variabilidad introducen las semil
 training_cost.csv,secundaria,¿Qué coste y número de épocas requiere cada configuración?,training_cost.csv
 training_history.csv,control,¿Cuál fue la historia completa de entrenamiento?,training_history.csv
 experiment_manifest.csv,control,¿Qué hiperparámetros definen cada configuración?,experiment_manifest.csv
-run_environment.csv,control,¿Con qué entorno y dispositivo se ejecutó?,run_environment.csv

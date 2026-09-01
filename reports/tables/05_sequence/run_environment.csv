@@ -1,2 +1,0 @@
-python,tensorflow,device_types,seeds,max_epochs,patience,batch_size
-3.12.4,2.18.0,CPU,42;123;2026,40,5,64

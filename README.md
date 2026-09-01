@@ -10,7 +10,7 @@ La parte práctica publicable está implementada y validada mediante siete noteb
 
 ## Orden de ejecución disponible
 
-1. `notebooks/01_eda_y_limpieza.ipynb`: integra los seis CSV, aplica controles de calidad, realiza el EDA y genera `data/processed/player_game_clean_1718.csv`.
+1. `notebooks/01_eda_y_limpieza.ipynb`: integra los tres CSV de actuaciones, aplica controles de calidad, realiza el EDA y genera `data/processed/player_game_clean_1718.csv`.
 2. `notebooks/02_construccion_datasets.ipynb`: construye los diseños temporales, valida la elegibilidad y exporta el dataset adoptado 3/5.
 3. `notebooks/03_benchmark_ml_walkforward.ipynb`: compara nueve modelos ML y las variantes ajustadas de LightGBM/XGBoost mediante cinco folds temporales y tuning anidado.
 4. `notebooks/04_mlp_tabular_walkforward.ipynb`: compara las tres variantes MLP iniciales y el MLP actual con tres semillas, selección temporal del número de `epochs` y registros de TensorBoard.
@@ -57,6 +57,6 @@ Los logs binarios de TensorBoard no se incluyen porque se regeneran durante el e
 
 ## Datos
 
-Los seis CSV son exportaciones de los seis datasets 2017/18 incluidos en BAwiR 1.5.3, desarrollado por Guillermo Vinue. Sus nombres lógicos, dimensiones y competiciones coinciden con el manual oficial del paquete. BAwiR se distribuye bajo licencia GPL (≥ 2) y declara como fuentes originales las webs de ACB, EuroLeague y EuroCup.
+Los tres CSV utilizados son exportaciones de los datasets de actuaciones de la temporada 2017/18 incluidos en BAwiR 1.5.3, desarrollado por Guillermo Vinue. Sus nombres lógicos, dimensiones y competiciones coinciden con el manual oficial del paquete. Los catálogos de jugadores también disponibles en BAwiR no se incluyen porque no intervienen en el análisis ni en el modelado. BAwiR se distribuye bajo licencia GPL (≥ 2) y declara como fuentes originales las webs de ACB, EuroLeague y EuroCup.
 
 Los datos se incluyen para permitir la reproducción del estudio, manteniendo la atribución a BAwiR y el aviso `GPL-2.0-or-later`. Esta indicación se limita a los datasets distribuidos dentro del paquete y no debe interpretarse como una licencia concedida directamente por ACB, EuroLeague o EuroCup ni como respaldo de dichas organizaciones. Referencias: [BAwiR en CRAN](https://CRAN.R-project.org/package=BAwiR) y [manual oficial del paquete](https://cran.r-project.org/web/packages/BAwiR/BAwiR.pdf).
